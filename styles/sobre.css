@@ -1,0 +1,16 @@
+﻿.sobre {
+  min-height: 20rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: var(--margin-default);
+  gap: 2rem;
+}
+
+.sobre__titulo {
+  font-size: 2rem;
+}
+
+.sobre p {
+  font-family: var(--secondary-font);
+}

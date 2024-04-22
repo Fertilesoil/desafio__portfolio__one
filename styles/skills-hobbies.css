@@ -1,0 +1,56 @@
+﻿.cards__skills,
+.cards__hobbies {
+  display: flex;
+  flex-direction: column;
+  min-height: 15rem;
+  background-color: var(--secondary-color);
+}
+
+.skills,
+.hobbies {
+  margin: var(--margin-default);
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  flex: 1;
+}
+
+.cards__skills h2,
+.cards__hobbies h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.card {
+  width: 13rem;
+  height: 10rem;
+  background-color: #F7F7F7;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  border-radius: .5rem;
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, .2);
+  cursor: pointer;
+  padding: 1rem;
+  transition: .27s ease;
+}
+
+.card:hover {
+  transform: translateX(.2rem) translateY(-.2rem);
+  transition: .27s ease;
+}
+
+.card__icone {
+  font-size: 3rem;
+  margin-inline-start: 2rem;
+  margin-bottom: 1rem;
+  color: chocolate;
+}
+
+.card__texto {
+  font-size: 1.2rem;
+  font-weight: 600;
+  font-family: var(--secondary-font);
+  margin-inline-start: 1.5rem;
+}

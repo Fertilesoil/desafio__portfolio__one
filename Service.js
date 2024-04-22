@@ -20,4 +20,3 @@ export function criarCardsProjetos(objeto, elemento) {
     novoCard.adicionarCard(elemento);
   });
 };
-

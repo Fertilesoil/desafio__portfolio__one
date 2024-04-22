@@ -1,0 +1,59 @@
+﻿header {
+  min-height: 4rem;
+  background-color: var(--secondary-color);
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  gap: 6rem;
+  min-height: inherit;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  backdrop-filter: blur(.2rem);
+}
+
+.menu__titulo__portfolio {
+  display: flex;
+  align-items: center;
+  gap: .9rem;
+}
+
+.menu__titulo__portfolio i {
+  font-size: 2rem;
+}
+
+.menu__titulo__portfolio a {
+  color: black;
+}
+
+.menu__secoes {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  align-items: center;
+  font-weight: 500;
+}
+
+.menu__secoes a {
+  color: black;
+  padding: .8rem;
+  border-radius: .3rem;
+  transition: all .27s ease;
+}
+
+.menu__secoes>li:nth-last-child(1) {
+  font-weight: 700;
+}
+
+.menu__secoes a:hover {
+  background-color: chocolate;
+  color: #e2f3f5;
+  transition: all .27s ease;
+}
