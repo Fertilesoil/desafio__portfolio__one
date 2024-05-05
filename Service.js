@@ -8,15 +8,13 @@ export function criaCards(objeto, elemento) {
   });
 };
 
-export function criarCardsProjetos(objeto, elemento) {
-  objeto.forEach(card => {
-    const novoCard = new CardProjetos(
-      card.titulo,
-      card.descricao,
-      card.textoUm,
-      card.textoDois,
-      card.refUm,
-      card.refDois);
-    novoCard.adicionarCard(elemento);
-  });
+export function criarCardsProjetos(objeto, elemento, index) {
+  const novoCard = new CardProjetos(
+    objeto[index].titulo,
+    objeto[index].descricao,
+    objeto[index].textoUm,
+    objeto[index].textoDois,
+    objeto[index].refUm,
+    objeto[index].refDois);
+  novoCard.adicionarCard(elemento[index]);
 };

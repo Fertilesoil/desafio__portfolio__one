@@ -17,6 +17,7 @@
 .experiencia__conteudo {
   display: flex;
   flex-direction: column;
+  gap: 1rem;
   margin: var(--margin-default);
 }
 

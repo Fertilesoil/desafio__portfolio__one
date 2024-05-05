@@ -66,3 +66,90 @@ export const cardProjetos = [
     refDois: "https://doces-abelha.vercel.app/",
   }
 ]
+
+export const imagensAbelha = [
+  {
+    referencia: "../assets/doces-abelha/doces-cadastro.png",
+    alt: "Imagem da tela de cadastro",
+    tituloDescricao: "Imagem Cadastro",
+    descricao: "Lorem ipsum amet."
+  },
+  {
+    referencia: "../assets/doces-abelha/doces-home.png",
+    alt: "Imagem da tela home do website",
+    tituloDescricao: "Imagem Home",
+    descricao: "Lorem ipsum amet."
+  },
+  {
+    referencia: "../assets/doces-abelha/doces-login.png",
+    alt: "Imagem da tela de login",
+    tituloDescricao: "Imagem Login",
+    descricao: "Lorem ipsum amet."
+  }
+]
+
+export const configSwiper = [
+  {
+    spaceBetween: 15,
+    effect: "slide",
+    pagination: {
+      el: ".swiper-1 .swiper-pagination",
+      clickable: true,
+    },
+    loop: true,
+    autoplay: true,
+    followFinger: true,
+    freeMode: {
+      enabled: true,
+      sticky: true,
+    },
+    grabCursor: true,
+    keyboard: {
+      enabled: true,
+      onlyInViewport: false,
+    },
+    preventInteractionOnTransition: true,
+  },
+  {
+    spaceBetween: 15,
+    effect: "slide",
+    pagination: {
+      el: ".swiper-2 .swiper-pagination",
+      clickable: true,
+    },
+    loop: true,
+    autoplay: true,
+    followFinger: true,
+    freeMode: {
+      enabled: true,
+      sticky: true,
+    },
+    grabCursor: true,
+    keyboard: {
+      enabled: true,
+      onlyInViewport: false,
+    },
+    preventInteractionOnTransition: true,
+  },
+  {
+    spaceBetween: 15,
+    effect: "slide",
+    pagination: {
+      el: ".swiper-3 .swiper-pagination",
+      clickable: true,
+    },
+    loop: true,
+    autoplay: true,
+    followFinger: true,
+    freeMode: {
+      enabled: true,
+      sticky: true,
+    },
+    grabCursor: true,
+    keyboard: {
+      enabled: true,
+      onlyInViewport: false,
+    },
+    preventInteractionOnTransition: true,
+  }
+]
