@@ -50,6 +50,7 @@
   border: 1px solid chocolate;
   background-color: chocolate;
   cursor: pointer;
+  border-radius: .3rem;
   transition: all .35s ease;
 }
 

@@ -4,7 +4,7 @@
 }
 
 .apresentacao {
-  min-height: 35rem;
+  min-height: 33rem;
   display: flex;
   margin: var(--margin-default);
   align-items: center;
@@ -15,6 +15,7 @@
   flex-direction: column;
   gap: 1rem;
   max-width: 50rem;
+  width: 70%;
 }
 
 .apresentacao__titulo {
@@ -60,7 +61,7 @@
 }
 
 .div__imagem {
-  width: 50%;
+  width: 40%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -68,5 +69,5 @@
 
 .apresentacao__imagem {
   width: 100%;
-  border-radius: 50%;
+  border-radius: 60%;
 }

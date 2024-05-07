@@ -11,5 +11,7 @@
   "devDependencies": {
     "vite": "^5.2.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "@emailjs/browser": "^4.3.3"
+  }
 }

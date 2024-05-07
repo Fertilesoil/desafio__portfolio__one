@@ -15,6 +15,8 @@
 @import url('styles/experiencia.css');
 /* SLIDERS */
 @import url('styles/slider.css');
+/* CONTATO */
+@import url('styles/contato.css');
 
 :root {
   --primary-font: "Inter Tight", sans-serif;

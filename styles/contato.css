@@ -1,0 +1,116 @@
+﻿.contato__secao {
+  min-height: 20rem;
+  font-family: var(--secondary-font);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.contato__header {
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+}
+
+.contato__forms {
+  font-family: var(--secondary-font);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: .5rem;
+  margin-bottom: .7rem;
+}
+
+.contato__forms textarea {
+  font-family: var(--secondary-font);
+  resize: none;
+  min-width: 40rem;
+  min-height: 7rem;
+  border: none;
+  padding: .3rem;
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, .1);
+}
+
+.contato__forms textarea::placeholder {
+  font-size: 1rem;
+}
+
+.nome__forms,
+.email__forms,
+.assunto__forms {
+  display: flex;
+  flex-direction: column;
+  font-family: var(--secondary-font);
+  width: 40rem;
+  height: 3rem;
+  padding: 0px 12px 0px 12px;
+  border: none;
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, .1);
+  transition: all .27s linear;
+}
+
+.contato__forms * span {
+  font-size: .7rem;
+  color: crimson;
+}
+
+/* .disabled {
+  background-color: #c1c1c1;
+  pointer-events: none;
+} */
+
+.nome__forms:focus,
+.email__forms:focus,
+.assunto__forms:focus,
+.contato__forms textarea:focus {
+  box-shadow: 0px -2px 0px rgba(15, 67, 145, 0.603) inset;
+  transition: all .27s linear;
+}
+
+.nome__forms__box legend, 
+.email__forms__box legend,
+.assunto__forms__box legend {
+  position: relative;
+  font-size: x-small;
+  right: -12px;
+  top: 13px;
+  color: gray;
+}
+
+.contato__botao[data-desabilitar] {
+  /* font-size: 1rem;
+  border: 1px solid chocolate;
+  padding: 17px 27px;
+  background-color: chocolate;
+  color: #F7F7F7;
+  cursor: pointer;
+  border-radius: .3rem;
+  transition: all .27s linear; */
+  pointer-events: none;
+  background-color: #c1c1c1;
+  border: none;
+}
+
+/* .contato__botao:hover {
+  background-color: #F7F7F7;
+  color: chocolate;
+  transition: all .27s linear;
+} */
+
+.contato__botao[data-desabilitar]:not([data-desabilitar~=":empty"]) {
+  /* pointer-events: none;
+  background-color: #c1c1c1;
+  border: none; */
+
+  font-size: 1rem;
+  border: 1px solid chocolate;
+  padding: 17px 27px;
+  background-color: chocolate;
+  color: #F7F7F7;
+  cursor: pointer;
+  border-radius: .3rem;
+  transition: all .27s linear;
+}

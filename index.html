@@ -234,9 +234,42 @@
 
   </section>
 
+  <section class="contato__secao" id="contato">
+
+    <article class="contato__header">
+      <h2>Contato</h2>
+      <p>Quer entrar em contato comigo? Preencha este formulário e entrarei em contato o mais rápido possível.</p>
+    </article>
+
+    <form class="contato__forms">
+
+      <div class="nome__forms__box">
+        <legend class="nome__forms__legend">Nome</legend>
+        <input type="text" class="nome__forms" name="nome" data-input="nome">
+        <span></span>
+      </div>
+
+      <div class="email__forms__box">
+        <legend class="email__forms__legend">E-mail</legend>
+        <input type="email" class="email__forms" name="email" data-input="email">
+        <span></span>
+      </div>
+
+      <div class="assunto__forms__box">
+        <legend class="assunto__forms__legend">Assunto</legend>
+        <input type="text" class="assunto__forms" name="assunto" data-input="assunto">
+        <span></span>
+      </div>
+
+      <textarea name="mensagem" id="mensagem" placeholder="Mensagem" data-input="mensagem"></textarea>
+      <button type="button" class="contato__botao" data-desabilitar="nome email assunto mensagem">Enviar Mensagem</button>
+    </form>
+  </section>
+
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   <script src="https://kit.fontawesome.com/a18b0a6dd3.js" crossorigin="anonymous"></script>
   <script type="module" src="/main.js"></script>
+  <script type="module" src="/forms.js"></script>
 </body>
 
 </html>
